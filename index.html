@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Calculadora
+        </title>
+        <link rel="stylesheet" type="text/css" href="../calculadora html/Style calculadora.css">
+        <script src="../calculadora html/javasc calculadora.js"></script>
+    </head>
+    <body><br>
+        <form id=form1 method="get">
+            <fieldset>
+                <legend>Cálculos</legend><br>
+                <hr><br>
+                <label for="num1">Primeiro número: </label>
+                <input class="input1" type="number" id="num1" name="num1"><br><br><br><br>
+                <label for="num2">Segundo número: </label>
+                <input class="input2" type="number" id="num2" name="num2"><br><br><br><br>
+                <label for="resultado">Resultado: </label>
+                <input class="input3" type="text" id="resultado" name="resultado" disabled><br><br><br><br>
+                <input type="reset" value="Limpar dados">
+                <div><input class="inputb" type="button" value="Somar" onclick="resultad(num1.value, num2.value, 1);">
+                <input class="inputb" type="button" value="Subtrair" onclick="resultad(num1.value, num2.value, 2);">
+                <input class="inputb" type="button" value="Multiplicar" onclick="resultad(num1.value, num2.value, 3);"><br>
+                <input class="inputb" type="button" value="Dividir" onclick="resultad(num1.value, num2.value, 4);">
+                <input class="inputb" type="button" value="Fatorial" onclick="resultad(num1.value, num2.value, 5);">
+                <input class="inputb" type="button" value="Potência" onclick="resultad(num1.value, num2.value, 6);"><br>
+                <input class="inputb" type="button" value="Raiz N" onclick="resultad(num1.value, num2.value, 7);">
+                <input class="inputb" type="button" value="Euler" onclick="resultad(num1.value, num2.value, 8);">
+                <input class="inputb" type="button" value="Fibonacci" onclick="resultad(num1.value, num2.value, 9);"><br>
+                <input class="inputb" type="button" value="PI" onclick="resultad(num1.value, num2.value, 10);">
+                <input class="inputb" type="button" value="Base 2" onclick="resultad(num1.value, num2.value, 11);">
+                <input class="inputb" type="button" value="Logaritmo" onclick="resultad(num1.value, num2.value, 12);"><br>
+                <input class="inputb" type="button" value="Seno" onclick="resultad(num1.value, num2.value, 13);">
+                <input class="inputb" type="button" value="Cosseno" onclick="resultad(num1.value, num2.value, 14);">
+                <input class="inputb" type="button" value="Tangente" onclick="resultad(num1.value, num2.value, 15);"></div>
+            </fieldset>
+            <p id="resulta"></p>
+        </form>        
+    </body>
+</html>
