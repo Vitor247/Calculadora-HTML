@@ -1,0 +1,36 @@
+fieldset{
+    width: 600px;
+    border-radius: 5px;
+    line-height: 7px;
+    border-color: brown;
+    background-color: burlywood;
+}
+input:hover{
+    background-color: rgb(241, 234, 223);
+}
+.input1{
+    position: absolute; left: 140px;
+    position: absolute; top: 60px;
+}
+.input2{
+    position: absolute; left: 140px;
+    position: absolute; top: 88px;
+}
+.input3{
+    position: absolute; left: 140px;
+    position: absolute; top: 115px;
+}
+.inputb{
+    width: 80px;
+}
+legend{
+    text-align: center;
+}
+div{
+    position: absolute; left: 358px;
+    position: absolute; top: 60px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
